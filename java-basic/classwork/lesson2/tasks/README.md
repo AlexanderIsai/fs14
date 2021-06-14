@@ -25,14 +25,15 @@ example:
 - output: true
 
 ### 3: Insert new data into an already sorted array
-You should insert new values `int[]` on the correct positions into an already sorted array.
+You should insert new values `int[]` on the correct positions into an already sorted array 
+and return this array.
 
 tips: 
-- your previously implemented `binarySeacrch` could help with this or `Arrays.binarySearch(...)` method
+- `Arrays.binarySearch(...)` method could help you find a place where to insert
 - `System.arraycopy` could help you to copy values from one array to another
 
 ```java
-private static void insert(int[] arr, int[] values) {
+private static int[] insert(int[] arr, int[] values) {
         //implement me
 }
 ```
